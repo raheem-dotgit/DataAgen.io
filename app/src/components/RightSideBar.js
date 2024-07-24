@@ -3,12 +3,11 @@ const RightSideBar = () =>
 {
  return(
   <>
-   <div className="right-side-bar">
-    <p>History</p>
-   </div>
-     <div class="vertical-hr-container-right">
-      <hr class="vertical-hr-right"/>
-    </div>
+   <div className="sm:bg-white border-x  absolute w-1/6 h-full  inline-flex right-0" >
+  <h1>
+    right side bar
+  </h1>
+</div>
     </>
  )
 }

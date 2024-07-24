@@ -16,26 +16,31 @@ const Navbar = () =>
 return(
 
  <>
- <div className="nav-container">
- <nav className="nav">
- <i className="side-bar-icon"><PiSidebar /></i>
- <i className="star-icon"><PiStarDuotone /></i>
- <h4>Dashboard</h4>
- <h4 className="slash">/</h4>
- <h4 className="default">Default</h4>
- <input type="text" name="" id="" placeholder="search"/>
- <i className="search-icon"><CiSearch /></i>
- <i className="sun-icon"><PiSunDuotone /></i>
- <i className="time-icon"><GiBackwardTime /></i>
- <i className="bell-icon"><AiTwotoneBell /></i>
- <i className="side-bar-icon2"><PiSidebar /></i>
+<nav className="sm:bg-white flex-row h-20 items-center justify-start w-full inline-flex border-y left-100 flex-wrap">
+<ul className="inline-flex absolute left-60 gap-3">
+  <li><PiStarDuotone/></li>
+  <li><PiSidebar/></li>
+</ul>
+  <ul className="sm:flex flex-row gap-5 mx-80">
+    <li className="text-zinc-400 font-thin">Dashboard</li>
+    <li>/</li>
+    <li>Default</li>
+  </ul>
+  <div className="sm:flex flex-row mx-32 absolute right-80">
+  <i className=" mt-2 mx-2 absolute"><CiSearch/></i>
+  <input type="text" placeholder="Search" className="border-none bg-zinc-100 border-7 pl-8 rounded-md py-1"/>
+  </div>
+
+  <ul className="sm:flex gap-4 right-80 absolute">
+    <li><PiSunDuotone/></li>
+    <li><GiBackwardTime/></li>
+    <li><AiTwotoneBell/></li>
+    <li><PiSidebar/></li>
+  </ul>
 </nav>
-</div>
-<hr />
 </>
 
 )
-
 
 
 
