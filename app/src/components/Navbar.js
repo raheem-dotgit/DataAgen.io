@@ -23,7 +23,7 @@ return(
  <h4>Dashboard</h4>
  <h4 className="slash">/</h4>
  <h4 className="default">Default</h4>
- <input type="text" name="" id="" placeholder="         search"/>
+ <input type="text" name="" id="" placeholder="search"/>
  <i className="search-icon"><CiSearch /></i>
  <i className="sun-icon"><PiSunDuotone /></i>
  <i className="time-icon"><GiBackwardTime /></i>

@@ -19,9 +19,7 @@ const Sidebar = () =>
 
   <div className="sidebar">
    <div>
-   <h1>LAZER</h1>
-   <br />
-   <br />
+   <h1>LYZER</h1>
    <br />
    <br />
    <br />

@@ -59,13 +59,15 @@ nav input{
   border-radius: 6px;
   background-color: whitesmoke;
   border: none;
-  width: 200px;
+  width: 150px;
+  padding-left: 28px;
 }
 
 .search-icon{
 
+  position: absolute;
     margin-top: 20px;
-    margin-left: -12rem;
+    margin-left: 40.5rem;
 }
 
 .star-icon{
@@ -116,24 +118,24 @@ nav input{
 .sun-icon{
   position: absolute;
   margin-left: 54rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 .time-icon{
   position: absolute;
   margin-left: 56rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 .bell-icon{
    position: absolute;
   margin-left: 58rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .side-bar-icon2
 {
   position: absolute;
   margin-left: 60rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 .right-side-bar{
   display: flex;
@@ -163,7 +165,7 @@ nav input{
   display: flex;
   flex-direction: column;
   justify-items: center;
-  row-gap: 1em;
+  row-gap: 0.5em;
 }
 
 .sidebar-content span{
