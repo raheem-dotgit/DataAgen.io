@@ -16,10 +16,10 @@ const Navbar = () =>
 return(
 
  <>
-<nav className="sm:bg-white flex-row h-20 items-center justify-start w-full inline-flex border-y left-100 flex-wrap">
+<nav className="sm:bg-white flex-row h-20 items-center justify-start w-full inline-flex border-y flex-wrap">
 <ul className="inline-flex absolute left-60 gap-3">
-  <li><PiStarDuotone/></li>
   <li><PiSidebar/></li>
+  <li><PiStarDuotone/></li>
 </ul>
   <ul className="sm:flex flex-row gap-5 mx-80">
     <li className="text-zinc-400 font-thin">Dashboard</li>
