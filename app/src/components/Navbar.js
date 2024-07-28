@@ -28,7 +28,7 @@ return(
   </ul>
   <div className="sm:flex flex-row mx-32 absolute right-80">
   <i className=" mt-2 mx-2 absolute"><CiSearch/></i>
-  <input type="text" placeholder="Search" className="border-none bg-zinc-100 border-7 pl-8 rounded-md py-1"/>
+  <input type="text" placeholder="Search" className="border-none bg-zinc-100 border-7 pl-8 rounded-3xl py-1"/>
   </div>
 
   <ul className="sm:flex gap-4 right-80 absolute">

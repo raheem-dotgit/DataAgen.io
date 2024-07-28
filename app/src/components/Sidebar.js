@@ -6,6 +6,7 @@ import { FaRegAddressBook } from "react-icons/fa6";
 import { GiBreakingChain } from "react-icons/gi";
 import { BiSolidUserAccount } from "react-icons/bi";
 import React, { useState } from 'react';
+import logo from '../images/logo.png'
 
 
 
@@ -24,8 +25,9 @@ const Sidebar = () =>
  return(
 
   <>
+
   <div className="sm:flex-col bg-white w-52 h-full inline-flex absolute border-x gap-20">
-    <h1>Logo</h1>
+      <img src={logo} alt="logo" className="w-[200px] mb-[-50px]"/>
     <div className="flex flex-col gap-3 ml-3 w-40">
     <div className="flex-row inline-flex align-middle gap-3  hover:bg-gray-100 rounded-xl py-3 px-2">
     <i className="mt-1 font-extrabold"><PiChartPieSliceFill /></i>
