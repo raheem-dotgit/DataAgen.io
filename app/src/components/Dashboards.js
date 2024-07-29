@@ -21,7 +21,7 @@ return(
     <br />
     <p>Experience the control of customer service and HR Management at one place</p>
   </div>
-  <div className='sm:flex flex-row  ml-[130px] p-8 gap-x-20 border rounded-3xl shadow-lg mt-20'>
+  <div className='sm:flex flex-row  ml-[130px] p-8 gap-x-20 border rounded-3xl shadow-2xl mt-10'>
         <Views className=""></Views>
         <View2 className=""/>
   </div>

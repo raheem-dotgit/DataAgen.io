@@ -51,7 +51,6 @@ const RightSideBar = () =>
   <AvatarFallback>CN</AvatarFallback>
 </Avatar>
   </div>
-
 </div>
 
     </>
