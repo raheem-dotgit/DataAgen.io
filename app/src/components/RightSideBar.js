@@ -6,17 +6,16 @@ import img3 from '../images/Screenshot 2024-07-29 at 1.35.44 AM.png'
 
 
 
-const RightSideBar = () =>
+const RightSideBar = ({isVisible}) =>
 {
  return(
-  <>
-   <div className="bg-white border-x  fixed w-1/6 h-full  inline-flex right-0" >
+  <div  className={`transition-transform duration-300 ${isVisible ? 'translate-x-0' : 'translate-x-full'}  bg-white border-x  fixed w-1/6 h-full  inline-flex right-0 dark:bg-gray-900`}>
+   <div className="" >
   <h1 className="top-4 left-4 absolute">
    History
   </h1>
   <div className="flex flex-col top-14 left-4 absolute gap-3">
-
-    <Avatar>
+  <Avatar>
   <AvatarImage src="https://github.com/shadcn.png" />
   <AvatarFallback>loading</AvatarFallback>
   </Avatar>
@@ -52,8 +51,7 @@ const RightSideBar = () =>
 </Avatar>
   </div>
 </div>
-
-    </>
+    </div>
  )
 }
 
