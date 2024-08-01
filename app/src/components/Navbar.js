@@ -10,7 +10,7 @@ import { useState, useEffect } from 'react';
 
 
 
-const Navbar = ({ toggleSidebar, isSidebarVisible }) =>
+const Navbar = ({ toggleSidebar, isSidebarVisible, toggleLeftSidebar, isLeftSidebarVisible }) =>
 {
 
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -32,7 +32,7 @@ return(
  <>
 <nav className="sm:bg-white flex-row h-20 items-center dark:bg-gray-900 justify-start w-full inline-flex border-y flex-wrap">
 <ul className="inline-flex absolute left-60 gap-3">
-  <li><PiSidebar/></li>
+  <button onClick={toggleLeftSidebar}><PiSidebar/></button>
   <li><PiStarDuotone/></li>
 </ul>
   <ul className="sm:flex flex-row gap-5 mx-80">
@@ -46,7 +46,7 @@ return(
   </div>
 
   <ul className="sm:flex gap-4 right-80 absolute">
-    <li  onClick={toggleDarkMode}><PiSunDuotone/></li>
+    <button  onClick={toggleDarkMode}><PiSunDuotone/></button>
     <li><GiBackwardTime/></li>
     <li><AiTwotoneBell/></li>
     <button onClick={toggleSidebar}><PiSidebar/></button>

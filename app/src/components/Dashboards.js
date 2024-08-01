@@ -6,8 +6,9 @@ const Dashboards = () => {
 
 
 return(
- <div className="sm:bg-white flex flex-col h-[1000px] ml-[190px] dark:bg-gray-900 w-[1490px]">
-  <div className="sm:flex flex-col  justify-start items-start ml-20 p-8">
+ <div className="sm:bg-white flex flex-col h-[1000px] dark:bg-gray-900 w-[1680px]">
+  <div className='ml-[280px]'>
+      <div className="sm:flex flex-col  p-8 ">
    <button className="flex-col -rotate-90 inline-block absolute">^</button>
    <button className="inline-block rotate-90 absolute ml-4">^</button>
      <ul className="sm:flex flex-row gap-2 mx-12">
@@ -16,15 +17,17 @@ return(
     <li>Overview</li>
   </ul>
   </div>
-  <div className='sm:flex flex-col  ml-[130px] p-8 gap-x-20 border rounded-3xl shadow-lg w-[1000px]'>
+  <div className='sm:flex flex-col p-8 gap-x-20 border rounded-3xl shadow-lg w-[1000px]'>
     <h3 className='font-extrabold'>One Spot of your Businesses</h3>
     <br />
     <p>Experience the control of customer service and HR Management at one place</p>
   </div>
-  <div className='sm:flex flex-row  ml-[130px] p-8 gap-x-20 border rounded-3xl shadow-2xl mt-10 w-[1000px]'>
+  <div className='sm:flex flex-row p-8 gap-x-20 border rounded-3xl shadow-2xl mt-10 w-[1000px]'>
         <Views className=""></Views>
         <View2 className=""/>
   </div>
+  </div>
+
 
  </div>
 )
