@@ -13,7 +13,7 @@ import logo from '../images/logo.png'
 
 
 
-const Sidebar = (isVisible, position) =>
+const Sidebar = (isVisible) =>
 
 {
 
@@ -27,7 +27,7 @@ const Sidebar = (isVisible, position) =>
   <>
 
   <div className={`transition-transform duration-300 ${isVisible ? 'translate-x-0' : 'translate-x-full'} sm:flex-col bg-white w-52 h-full inline-flex fixed border-x gap-20 dark:bg-gray-900`}>
-      <img src={logo} alt="logo" className="w-[200px] mb-[-50px] dark:bg-gray-900"/>
+      <img src={logo} alt="logo" className="w-[200px] mb-[-50px]"/>
     <div className="flex flex-col gap-3 ml-3 w-40">
     <div className="flex-row inline-flex align-middle gap-3  hover:bg-gray-100 dark:hover:bg-slate-500 rounded-xl py-3 px-2">
     <i className="mt-1 font-extrabold"><PiChartPieSliceFill /></i>
@@ -48,7 +48,7 @@ const Sidebar = (isVisible, position) =>
       {isAutobotsOpen && (
       <div className="flex-row inline-flex align-middle gap-3 justify-center ml-5 font-light">
       <ul className="gap-2">
-      <li className=" hover:bg-gray-100 dark:hover:bg-slate-500 rounded-xl py-3 px-9 w-48">Data Setup</li>
+      <li className=" hover:bg-gray-100 dark:hover:bg-slate-500 rounded-xl py-3 px-9 w-40">Data Setup</li>
       <li className=" hover:bg-gray-100 dark:hover:bg-slate-500 rounded-xl py-3 px-9">Integration Setting</li>
       <li className=" hover:bg-gray-100  dark:hover:bg-slate-500 rounded-xl py-3 px-9">Playground</li>
       <li className=" hover:bg-gray-100  dark:hover:bg-slate-500 rounded-xl py-3 px-9">Deploy</li>

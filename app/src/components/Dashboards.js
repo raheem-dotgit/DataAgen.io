@@ -6,7 +6,7 @@ const Dashboards = () => {
 
 
 return(
- <div className="sm:bg-white flex flex-col h-[1000px] ml-[190px] dark:bg-gray-900 w-[1490px] mt-0">
+ <div className="sm:bg-white flex flex-col h-[1000px] ml-[190px] dark:bg-gray-900 w-[1490px]">
   <div className="sm:flex flex-col  justify-start items-start ml-20 p-8">
    <button className="flex-col -rotate-90 inline-block absolute">^</button>
    <button className="inline-block rotate-90 absolute ml-4">^</button>
