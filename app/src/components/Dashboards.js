@@ -6,8 +6,8 @@ const Dashboards = () => {
 
 
 return(
- <div className="sm:bg-white flex flex-col h-[1000px] dark:bg-gray-900 w-[1680px]">
-  <div className='ml-[280px]'>
+ <div className="sm:bg-white inline-flex flex-col h-[90vh] dark:bg-gray-900 w-[71vw] items-center">
+  <div className=''>
       <div className="sm:flex flex-col  p-8 ">
    <button className="flex-col -rotate-90 inline-block absolute">^</button>
    <button className="inline-block rotate-90 absolute ml-4">^</button>

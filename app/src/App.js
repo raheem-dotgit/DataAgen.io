@@ -22,13 +22,20 @@ function App() {
   }
   return (
     <>
-    <Sidebar isVisible={isLeftSidebarVisible}></Sidebar>
-    <Navbar toggleSidebar={toggleSidebar} isSidebarVisible={isSidebarVisible}
+    <div className='inline-flex'>
+          <Sidebar isVisible={isLeftSidebarVisible}></Sidebar>
+    </div>
+    <div className='inline-flex'>
+      <Navbar toggleSidebar={toggleSidebar} isSidebarVisible={isSidebarVisible}
     toggleLeftSidebar ={toggleLeftSidebar} isLeftSidebarVisible={isLeftSidebarVisible} ></Navbar>
-    <RightSideBar isVisible={isSidebarVisible}></RightSideBar>
-    <Dashboards />
+    </div>
 
-    
+    <div className='inline-flex absolute top-[84px]'>
+               <Dashboards className=""></Dashboards>
+    </div>
+    <div className='float-end'>
+          <RightSideBar isVisible={isSidebarVisible}></RightSideBar>
+    </div>
 
 
     </>
