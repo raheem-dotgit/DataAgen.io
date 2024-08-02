@@ -17,12 +17,12 @@ return(
     <li>Overview</li>
   </ul>
   </div>
-  <div className='sm:flex flex-col p-8 gap-x-20 border rounded-3xl shadow-lg w-[900px]'>
+  <div className='sm:flex flex-col p-8 gap-x-20 border rounded-3xl shadow-lg max-w-[900px]'>
     <h3 className='font-extrabold'>One Spot of your Businesses</h3>
     <br />
     <p>Experience the control of customer service and HR Management at one place</p>
   </div>
-  <div className='sm:flex flex-row p-8 gap-x-20 border rounded-3xl shadow-2xl mt-10 w-[900px]'>
+  <div className='sm:flex flex-row p-8 gap-x-20 border rounded-3xl shadow-2xl mt-10 max-w-[900px]'>
         <Views className=""></Views>
         <View2 className=""/>
   </div>
