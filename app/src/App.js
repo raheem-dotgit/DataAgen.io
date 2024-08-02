@@ -30,7 +30,7 @@ function App() {
     toggleLeftSidebar ={toggleLeftSidebar} isLeftSidebarVisible={isLeftSidebarVisible} ></Navbar>
     </div>
 
-    <div className='inline-flex absolute top-[84px]'>
+    <div className='inline'>
                <Dashboards className=""></Dashboards>
     </div>
     <div className='float-end'>
