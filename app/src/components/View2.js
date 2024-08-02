@@ -46,7 +46,7 @@ export function View2() {
   return (
     <ChartContainer
           config={chartConfig}
-          className="mx-auto aspect-square max-h-[250px] w-[500px]"
+          className="mx-auto aspect-square max-h-[250px] max-w-[500px] w-[500px]"
         >
           <PieChart>
             <ChartTooltip

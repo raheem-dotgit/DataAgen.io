@@ -31,7 +31,7 @@ const chartConfig = {
 
 export function Views() {
   return (
-    <ChartContainer config={chartConfig} className="min-h-[200px] w-[500px]">
+    <ChartContainer config={chartConfig} className="min-h-[200px] max-w-[500px] w-[500px]">
       <BarChart accessibilityLayer data={chartData}>
         <CartesianGrid vertical={false} />
         <XAxis

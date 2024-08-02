@@ -12,7 +12,7 @@ const RightSideBar = ({isVisible}) =>
 
  return(
 
-  <div  className={`transition-transform duration-300 ${isVisible ? 'translate-x-0' : 'translate-x-full'}  bg-white border-l   w-[17vw] h-[100vh]  dark:bg-gray-900 overflow-hidden shrink-0`}>
+  <div  className={`transition-transform duration-300 ${isVisible ? 'translate-x-0' : 'translate-x-full'}  bg-white border-l   w-[17vw] h-[100vh]  dark:bg-gray-900 overflow-auto`}>
 
   <div className="m-4">
     <p>History</p>
